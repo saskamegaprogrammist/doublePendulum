@@ -1,0 +1,19 @@
+.forms-page__form {
+  margin: 20px;
+}
+
+.forms-page__input{
+  border: solid 1px var(--global-blue-color);
+  width: 250px;
+
+}
+
+.forms-page__input::placeholder {
+  font-family: var(--global-font-main);
+}
+
+.forms-page__button {
+  font-family: var(--global-font-main);
+  background-color: var(--global-pink-color);
+  color: var(--white-color);
+}

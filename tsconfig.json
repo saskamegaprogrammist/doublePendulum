@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true ,
+    "baseUrl": ".",
+    "paths": {
+      "@pendulum/*": ["public/pendulum/*"],
+      "@input/*": ["public/input/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
